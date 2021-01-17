@@ -75,7 +75,7 @@
     <Link>
       <AdditionalDependencies>Msimg32.lib;shlwapi.lib;Shcore.lib;XmlLite.lib;d3d11.lib;dxgi.lib;dxguid.lib;uuid.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;odbc32.lib;odbccp32.lib;runtimeobject.lib;comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <SubSystem>Windows</SubSystem>
+      <SubSystem>Console</SubSystem>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <DataExecutionPrevention />
       <TargetMachine>MachineX64</TargetMachine>
@@ -86,7 +86,7 @@
       <TargetEnvironment>X64</TargetEnvironment>
     </Midl>
     <ClCompile>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <PrecompiledHeader />
       <WarningLevel>Level3</WarningLevel>
@@ -97,7 +97,7 @@
     <Link>
       <AdditionalDependencies>comctl32.lib;shlwapi.lib;DXGI.lib;D3D11.lib;XmlLite.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <SubSystem>Windows</SubSystem>
+      <SubSystem>Console</SubSystem>
       <OptimizeReferences>true</OptimizeReferences>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
@@ -173,6 +173,7 @@
     <ClCompile Include="..\WeaselLibrary\wildWeasel\wwRotCtrlCube.cpp" />
     <ClCompile Include="..\WeaselLibrary\wildWeasel\wwTreeView.cpp" />
     <ClCompile Include="..\WeaselLibrary\xml.cpp" />
+    <ClCompile Include="sourcecode\console.cpp" />
     <ClCompile Include="sourcecode\millField2D.cpp" />
     <ClCompile Include="sourcecode\MuehleWin.cpp" />
   </ItemGroup>

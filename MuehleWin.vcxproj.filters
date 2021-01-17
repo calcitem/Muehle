@@ -230,6 +230,9 @@
     <ClCompile Include="..\WeaselLibrary\wildWeasel\ssf_DXTK11\wwSsf.cpp">
       <Filter>wildWeasel</Filter>
     </ClCompile>
+    <ClCompile Include="sourcecode\console.cpp">
+      <Filter>wildWeasel</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="sourcecode\MuehleWin.rc">
